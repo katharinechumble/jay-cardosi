@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+header {
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+}
+.day-1, .day-2, .day-3, .day-4, .day-5 {
+    background-color: navy;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

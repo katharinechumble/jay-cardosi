@@ -40,17 +40,27 @@
       </div>
       <!-- Search results go here -->
       <div class="col-12 col-m-8">
-        <div id="present-container">
-            <p>Temp:</p>
-            <p>Wind:</p>
-            <p>Humidity:</p>
-            <p>UV Index:</p>
+        <div id="present-container" class="card">
+            <p id="air-temp">Temp:</p>
+            <p id="wind-speed">Wind:</p>
+            <p id="current-conditions">Current Conditions:</p>
+            <p id="uv-index">UV Index:</p>
         </div>
-        <!--div id="future-container" class="list-group"--><!--/div-->
+        <div id="future-container" class="list-group future-forecast">
+            <div id= "day-1" class="card"><p id="day-1-conditions" class="day-1-wind day-1-humid"></p></div>
+            <div id= "day-2" class="card"><p id="day-2-conditions" class="day-2-wind day-2-humid"></p></div>
+            <div id= "day-3" class="card"><p id="day-3-conditions" class="day-3-wind day-3-humid"></p></div>
+            <div id= "day-4" class="card"><p id="day-4-conditions" class="day-4-wind day-4-humid"></p></div>
+            <div id= "day-5" class="card"><p id="day-5-conditions" class="day-5-wind day-5-humid"></p></div>
+        </div>
       </div>
     </main>
 
     <!-- scripts -->
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
